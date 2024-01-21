@@ -17,3 +17,6 @@ References for the data source(s)
 
 
 References for any code used that is not your own
+
+- https://www.chartjs.org/docs/latest/getting-started/usage.html
+- https://chat.openai.com/
