@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respiratory Infections Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="data/output.js"></script>
+  <script>
+    // Move the script for populating the dropdown to the head section
+    document.addEventListener('DOMContentLoaded', function () {
+      const weekSelect = document.getElementById('weekSelect');
+
+      // Extract unique week_end values from the data
+      const uniqueWeeks = [...new Set(window.data.map(item => item.week_end))];
+
+      // Populate the dropdown with week_end options
+      uniqueWeeks.forEach(week => {
+        const option = document.createElement('option');
+        option.value = week;
+        option.textContent = week;
+        weekSelect.appendChild(option);
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <h2 style="text-align: center; margin-bottom: 20px;">Weekly Respiratory Infection Percentages by State</h2>
+    <label for="weekSelect">Select Week End:</label>
+    <select id="weekSelect" onchange="updateChart(this.value)"></select>
+    <div id="barChartContainer">
+      <canvas id="barChart" ></canvas>
+    </div>
+  </div>
+  <!-- <script src="chart.js"></script> -->
+  <script src="chart.js"></script>
+</body>
+</html>
+
