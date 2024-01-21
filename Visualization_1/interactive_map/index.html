@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 Covid_19 Across the US</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        /* Style for the legend */
+        .legend {
+          background: white;
+          padding: 7px;
+          opacity: .6;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+        body {
+            text-align: center;
+        }
+      </style>
+
+    <!-- Include your fetchAndJoinData script -->
+    <!-- <script src="fetchAndJoinData.js"></script> -->
+    <!-- <script src="fetchAndJoinData copy.js"></script> -->
+    <script src="interactive_covid_map_year.js"></script>
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+    <h1>2023 Covid-19 Across the US</h1><hr>
+    <!-- <h5>Red - Percent Visits Total greater than 100</h5>
+    <h5>Orange - Percent Visits Total greater than 75 and less than or equal to 100 </h5>
+    <h5>Yellow - Percent Visits Total greater than 50 and less than or equal to 75</h5> -->
+    <h3>Click the states for more information</h3><hr>
+
+    <!-- Display joined data in a list -->
+    <ul id="joinedDataList"></ul>
+
+    <!-- Create a container for the map -->
+    <div id="map" style="height: 700px;"></div>
+
+</body>
+</html>
