@@ -13,7 +13,7 @@ Visualization 1 - Map Representation Instructions:
 
 - This visualization represents the Covid information for all the Sates of United States in a Map representation.
 -Run the index.html file and it will run the interactive_covid_map_year.js file
-- When it opens, it displays the United States map. This is an interactive map, when the user clicks the state, thy can see the Covid details of the selected state .
+- When it opens, it displays the United States map. This is an interactive map, when the user clicks the state, they can see the Covid details of the selected state .
 - The data represents the percent_value of COVID sum of 2023 year for each state in the year of 2023.
 - Below is the breakdown :
     Red - Percent Visits Total greater than 100
