@@ -16,9 +16,9 @@ Visualization 1 - Map Representation Instructions:
 - When it opens, it displays the United States map. This is an interactive map, when the user clicks the state, they can see the Covid details of the selected state .
 - The data represents the percent_value of COVID sum of 2023 year for each state in the year of 2023.
 - Below is the breakdown :
-    Red - Percent Visits Total greater than 100
-    Orange - Percent Visits Total greater than 75 and less than or equal to 100
-    Yellow - Percent Visits Total greater than 50 and less than or equal to 75
+    - Red - Percent Visits Total greater than 100
+    - Orange - Percent Visits Total greater than 75 and less than or equal to 100
+    - Yellow - Percent Visits Total greater than 50 and less than or equal to 75
 
 
 Visualization 2 - Stacked Bar Chart Instructions:
