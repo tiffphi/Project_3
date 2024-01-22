@@ -11,7 +11,7 @@ Instructions on how to use and interact with the project
 
 Visualization 2 - Stacked Bar Chart Instructions:
 
-- This visualization represents weekly respiratory infection percentagess by state.
+- This visualization represents weekly respiratory infection percentages by state.
 - Run the index.html file and it will run the chart.js file.
 - Once it opens in the browser, it will display a key at the top with corresponding colors for each pathogen.
 - In the dropdown menu, select a week_end date to display a stacked bar chart showing percentages for each of the pathogens during that week.
