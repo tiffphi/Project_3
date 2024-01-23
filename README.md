@@ -3,6 +3,8 @@ Data Visualization Track: Healthcare - CDC 2023 Respiratory Virus Response
 
 Group Members: Tiffany Phipps, Geysha Cabreja, Mohammed Afzal, Shaon Shill
 
+Powerpoint Presentation Link: https://docs.google.com/presentation/d/1rfBRsHRguMmwBgkqh9OJzQ2A67i0JV2v1nn-8K4rGWQ/edit?usp=sharing 
+
 An overview of the project and its purpose:
 
 Our Team has chosen the Data Visualization Track. We’re going to analyze 2023 Respiratory Virus Response data across the United States for a subset of months obtained through the CDC. We will likely merge state population information with the dataset and create visualizations based on some of the project ideas listed below.
@@ -72,7 +74,6 @@ References for the data source(s)
 
 - https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/us-state-boundaries/exports/geojson?lang=en&timezone=America%2FNew_York
 
-Powerpoint Presentation Link: https://docs.google.com/presentation/d/1rfBRsHRguMmwBgkqh9OJzQ2A67i0JV2v1nn-8K4rGWQ/edit?usp=sharing 
 References for any code used that is not your own
 
 - https://www.chartjs.org/docs/latest/getting-started/usage.html
