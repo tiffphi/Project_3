@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respiratory Infections Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="data/output.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <h2 style="text-align: center; margin-bottom: 20px;">Monthly Respiratory Infection Percentages by State</h2>
+    <!-- <label for="weekSelect">Select Week End:</label>
+    <select id="weekSelect" onchange="updateChart(this.value)"></select> -->
+    <label for="stateSelect">Select State:</label>
+    <select id="stateSelect" onchange="updateChart(this.value)"></select>
+    <div id="barChartContainer">
+      <canvas id="barChart" ></canvas>
+    </div>
+  </div>
+  <!-- <script src="chart.js"></script> -->
+  <script src="chart_v2.js"></script>
+</body>
+</html>
+
